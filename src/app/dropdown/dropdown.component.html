@@ -1,0 +1,8 @@
+<mat-form-field>
+  <mat-label>{{inputLabel}}</mat-label>
+  <mat-select [(value)]="selected" (selectionChange)="valueSelected(selected)" [disabled]="options.length==0">
+    <mat-option *ngFor="let opt of options" [value]="opt">
+      {{opt}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>

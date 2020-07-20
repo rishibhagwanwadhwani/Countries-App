@@ -1,0 +1,36 @@
+.dropdowns {
+  text-align: center;
+  margin: 2rem;
+  app-dropdown {
+    margin: 2rem;
+  }
+}
+
+.country-table {
+  width: 80%;
+  margin: auto;
+}
+
+table, tr, td {
+  border: 1px solid black;
+}
+
+.table-heading {
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-data {
+  text-align: center;
+}
+
+td {
+  width: 20%;
+  img {
+    vertical-align: middle;
+  }
+}
+
+.flag {
+  max-width: 100%;
+}
